@@ -66,13 +66,12 @@ toolkit:
     entry_file: step.sh
 
 
-# inputs:
-#   - toto: Default Value - you can leave this empty if you want to
-#     opts:
-#       title: "Example Step Input"
-#       summary: Summary. No more than 2-3 sentences.
-#       description: |
-#         Description of this input.
-
-#         Can be Markdown formatted text.
-#       is_required: true
+inputs:
+  - mail:
+    opts:
+      title: "Auth mail"
+      is_required: true
+  - password:
+    opts:
+      title: "Auth password"
+      is_required: true
