@@ -67,11 +67,11 @@ toolkit:
 
 
 inputs:
-  - mail:
+  - mail: "$AUTH_MAIL"
     opts:
       title: "Auth mail"
       is_required: true
-  - password:
+  - password: "$AUTH_PASSWORD"
     opts:
       title: "Auth password"
       is_required: true
