@@ -10,9 +10,9 @@
 title: |-
   OBD Ressources Downloader
 summary: |
-  kjsf
+  Fetch OBD Ressources 
 description: |
-  fdkj
+  Fetch OBD json + OBD assets and add them to the project directly
 website: https://github.com/Foodvisor/bitrise-step-obd-ressources-downloader
 source_code_url: https://github.com/Foodvisor/bitrise-step-obd-ressources-downloader
 support_url: https://github.com/Foodvisor/bitrise-step-obd-ressources-downloader/issues
