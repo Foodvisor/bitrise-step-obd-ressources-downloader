@@ -5,6 +5,8 @@ app:
   envs:
   - AUTH_MAIL: $AUTH_MAIL
   - AUTH_PASSWORD: $AUTH_PASSWORD
+  - ENVIRONMENT: $ENVIRONMENT
+  - VERSION: $VERSION
 
 workflows:
   test:

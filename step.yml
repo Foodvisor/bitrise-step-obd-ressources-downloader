@@ -75,3 +75,11 @@ inputs:
     opts:
       title: "Auth password"
       is_required: true
+  - env: "$ENVIRONMENT"
+    opts:
+      title: "Environnement"
+      is_required: true
+  - version: "$VERSION"
+    opts:
+      title: "Version"
+      is_required: true
