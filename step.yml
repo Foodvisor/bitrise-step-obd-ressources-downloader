@@ -83,3 +83,7 @@ inputs:
     opts:
       title: "Version"
       is_required: true
+  - lang: "$SUPPORTED_LANGS"
+    opts:
+      title: "Supported Languages"
+      is_required: true
