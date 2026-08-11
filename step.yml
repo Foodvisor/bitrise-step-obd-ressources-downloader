@@ -67,6 +67,20 @@ toolkit:
 
 
 inputs:
+  - command: "obd-json-downloader"
+    opts:
+      title: "Command"
+      summary: "Which resources to download."
+      description: |-
+        Selects what the tool downloads:
+        - `obd-json-downloader` (legacy): OBD json + assets only.
+        - `resources-downloader`: OBD json + assets AND game resources (version, rive, items).
+        - `game`: only the game resources (version, rive, items).
+      value_options:
+        - "obd-json-downloader"
+        - "resources-downloader"
+        - "game"
+      is_required: true
   - mail: "$AUTH_MAIL"
     opts:
       title: "Auth mail"
